@@ -23,5 +23,7 @@ production = [
     "scikit-learn (>=1.7.2,<2.0.0)"
 ]
 dev = [
-    "matplotlib (>=3.10.7,<4.0.0)"
+    "matplotlib (>=3.10.7,<4.0.0)",
+    "kagglehub (>=0.3.13,<0.4.0)",
+    "pandas (>=2.3.3,<3.0.0)"
 ]
