@@ -1,0 +1,1 @@
+MODEL_PATH = "/home/sohyla/depi_deployment/digits_recognition/models/random_forest_mnist_model.pkl"
