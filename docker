@@ -1,0 +1,7 @@
+FROM python:3.13
+
+WORKDIR /usr/local/app
+
+COPY src ./src
+
+RUN bash
