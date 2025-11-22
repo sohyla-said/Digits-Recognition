@@ -21,7 +21,9 @@ build-backend = "poetry.core.masonry.api"
 
 [dependency-groups]
 production = [
-    "scikit-learn (>=1.7.2,<2.0.0)"
+    "scikit-learn (>=1.7.2,<2.0.0)",
+    "streamlit (>=1.51.0,<2.0.0)",
+    "streamlit-drawable-canvas (>=0.9.3,<0.10.0)"
 ]
 dev = [
     "matplotlib (>=3.10.7,<4.0.0)",
@@ -31,3 +33,4 @@ dev = [
     "ruff (>=0.14.4,<0.15.0)",
     "pytest (>=8.4.2,<9.0.0)"
 ]
+
